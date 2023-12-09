@@ -1,0 +1,14 @@
+! Various Discord annoyances
+discord.com##li[class^="channel"]:has([data-list-item-id$="___nitro"][data-list-item-id^="private-channels-uid_"])
+discord.com##li[class^="channel"]:has([data-list-item-id$="___activities"][data-list-item-id^="private-channels-uid_"])
+discord.com##li[class^="channel"]:has([data-list-item-id$="___snowsgiving"][data-list-item-id^="private-channels-uid_"])
+discord.com##li[class^="channel"]:has([data-list-item-id$="___shop"][data-list-item-id^="private-channels-uid_"])
+discord.com##[class*="contentPremium-"]
+discord.com##[class*="snowsgivingLink"]
+discord.com##[class^="newMemberBadge-"]
+discord.com##[class^="nowPlayingColumn_"]
+discord.com##[aria-label*="super reaction"]:upward(2)
+discord.com##[aria-label="Add Super Reaction"]
+discord.com##[id="message-add-reaction-1"]:upward(1)
+||discord.com/api/*/typing
+||discord.com/api/*/science
