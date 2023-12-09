@@ -8,7 +8,7 @@
 ==/UserStyle== */
 
 @-moz-document domain("discord.com") {
-	[class^="messageListItem"] [class^="compact"] [class^="clickableSticker"] [class^="assetWrapper"] {
+	[class^="messageListItem"] [class*=" compact"] [class^="clickableSticker"] [class^="assetWrapper"] {
 		width: 2em !important;
 		height: 2em !important;
 	}
